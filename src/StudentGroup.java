@@ -30,7 +30,7 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 	@Override
-	public void setStudents(Student[] students) {
+	public void setStudents(Student[] students) throws IllegalArgumentException {
 		this.students=students;
 		// Add your implementation here
 	}
@@ -43,64 +43,65 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 	@Override
-	public void setStudent(Student student, int index) {
+	public void setStudent(Student student, int index)throws IllegalArgumentException {
 		
 		// Add your implementation here
 
 	}
 
 	@Override
-	public void addFirst(Student student) {
+	public void addFirst(Student student) throws IllegalArgumentException{
 		// Add your implementation here
 	}
 
 	@Override
-	public void addLast(Student student) {
+	public void addLast(Student student)throws IllegalArgumentException {
 		// Add your implementation here
 	}
 
 	@Override
-	public void add(Student student, int index) {
+	public void add(Student student, int index) throws IllegalArgumentException{
 		// Add your implementation here
 	}
 
 	@Override
-	public void remove(int index) {
+	public void remove(int index) throws IllegalArgumentException {
 		// Add your implementation here
 	}
 
 	@Override
-	public void remove(Student student) {
+	public void remove(Student student) throws IllegalArgumentException{
 		// Add your implementation here
 	}
 
 	@Override
-	public void removeFromIndex(int index) {
+	public void removeFromIndex(int index) throws IllegalArgumentException {
 		// Add your implementation here
 	}
 
 	@Override
-	public void removeFromElement(Student student) {
+	public void removeFromElement(Student student)throws IllegalArgumentException {
 		// Add your implementation here
 	}
 
 	@Override
-	public void removeToIndex(int index) {
+	public void removeToIndex(int index)throws IllegalArgumentException {
 		// Add your implementation here
 	}
 
 	@Override
-	public void removeToElement(Student student) {
+	public void removeToElement(Student student)throws IllegalArgumentException {
 		// Add your implementation here
 	}
 
 	@Override
 	public void bubbleSort() {
+
 		// Add your implementation here
 	}
 
 	@Override
-	public Student[] getByBirthDate(Date date) {
+	public Student[] getByBirthDate(Date date)throws IllegalArgumentException {
 		// Add your implementation here
 		return null;
 	}
